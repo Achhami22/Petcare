@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.shop-container {
+  width: 100%;
+  margin: 115px auto 0;
+}
+
+.shop-first {
+  width: 100%;
+  margin: 0px auto 0;
+  background-color: #fff7bd;
+}
+
+.first-part1 h1 {
+  font-size: 3vw;
+  text-align: center;
+  padding-top: 20px;
+}
+.first-part1 p {
+  margin-top: 5px;
+  font-size: 1.5vw;
+  font-weight: 400;
+  color: #858383;
+  text-align: center;
+}
+
+.first-part2 {
+  width: 40%;
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+.buttonshop {
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1vw;
+  background-color: #f38820;
+  padding: 10px;
+}
+.first-part2 li {
+  list-style: none;
+}
+.first-part2 li a {
+  text-decoration: none;
+}
+.shop-first img {
+  width: 80%;
+  display: block;
+  margin: 40px auto 0;
+}
+.shopnow {
+  width: 100%;
+  background: #f38820;
+  padding: 10px;
+}
+.shopnow p{
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  /* Styles for mobile phones */
+  .shop-container {
+    width: 100%;
+    margin: 40px auto 0;
+  }
+  .shop-first img {
+    margin: 10px auto 0;
+  }
+
+  .buttonshop{
+    padding: 3px;
+  }
+  .first-part2{
+    margin: 5px auto 0;
+  }
+  .shopnow{
+    padding: 5px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Styles for tablets */
+  .shop-container {
+    width: 100%;
+    margin: 70px auto 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Styles for small laptops and desktops */
+  .shop-container {
+    width: 100%;
+    margin: 115px auto 0;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* Styles for standard laptops and desktops */
+  .shop-container {
+    width: 100%;
+    margin: 115px auto 0;
+  }
+}
+
+.lastitems{
+  width: 80%;
+  margin: 20px auto 0;
+}
+.litemt{
+  border-bottom: 1px solid#f38820;
+}
+.lastitems h3{
+  font-weight: 600;
+  color: #2595D4;
+}
+.pop-search{
+  width: 100%;
+  color: #f38820;
+}
+.lastlinks1, .lastlinks2{
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+.lastlinks1 a,
+.lastlinks2 a
+{
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #f38820;
+  border-radius: 20px;
+  z-index: 1;
+}
+.lastlinks1 a:hover,
+.lastlinks2 a:hover{
+  background-color: #fff;
+  border: 1px solid #f38820;
+  color: #f38820;
+
+
+}
+
+
+
+

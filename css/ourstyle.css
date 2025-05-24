@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* Style for the our services page */
+.service-container {
+  width: 80%;
+  margin: 120px auto 0;
+}
+.service-title {
+  width: 100%;
+}
+.service-title h1 {
+  margin: 30px 0;
+  color: #f38820;
+  text-align: center;
+}
+.service-grid,
+.service-itemadd {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(368px, 1fr));
+  gap: 24px;
+}
+.service-item {
+  padding: 30px 20px;
+}
+.service-item:hover {
+  background-color: #ffeedc;
+}
+
+.service-item img {
+  position: relative;
+  left: 30%;
+}
+.service-item h3 {
+  margin-top: 20px;
+  text-align: center;
+}
+.service-item p {
+  margin-top: 10px;
+  text-align: center;
+}
+.service-add {
+  padding: 20px;
+}
+.service-add img {
+  width: 100%;
+}
+.service-add a {
+  padding: 0 42%;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f38820;
+}
+.location {
+  width: 80%;
+  background-color: #2595d4;
+  margin: 20px auto 0;
+}
+.l1,
+.l2 {
+  padding: 20px 60px;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+}
+.l11,
+.l12,
+.l21,
+.l22 {
+  display: flex;
+  color: #fff;
+  gap: 20px;
+}

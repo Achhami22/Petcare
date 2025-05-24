@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.content {
+  width: 80%;
+  margin: 30px auto 0;
+}
+.first {
+  width: 100%;
+}
+.first h1 {
+  margin: 40px auto 0;
+  text-align: center;
+  color: #FF22AA;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.first img{
+  width: 800px;
+  display: block;
+  margin: 80px auto 0;
+  flex-shrink: 0;
+}
+.first p{
+margin: 50px auto 0;
+text-align: center;
+color: rgba(0, 0, 0, 0.35);
+font-family: Inria Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.second{
+  width: 100%;
+  margin: 20px auto 0;
+}
+.second h1{
+  text-align: start;
+  font-size: 40px;
+}
+.secondline{
+  width: 100%;
+  margin: 10px auto 0;
+}
+.pet-info1 {
+  display: flex;
+  margin: 20px auto 0;
+  gap: 30px;
+}
+.photo img{
+width: 300px;
+height: 300px;
+}
+.lmore{
+  width: 40%;
+  margin: 20px auto 0;
+  color:blue;
+}

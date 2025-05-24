@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/car.css" />
+  </head>
+  <body>
+    <div class="adoption1">
+      <div class="adoptionImage">
+        <img src="images/adoption/Adopt cat1.png" />
+        <div class="discription">
+          <button id="myButton" class="eyes">
+            <i class="fa-solid fa-eye"></i> Quick view
+          </button>
+          <button class="adoptt">Adopt</button>
+        </div>
+      </div>
+      <h2>Petname</h2>
+      <p>age|gender</p>
+      <div id="myPopup" class="popup">
+        <div class="popup-content">
+          <div class="popupcontent1">
+            <div class="leftpoup">
+              <div id="image-gallery" class="gallery">
+                <img src="images/adoption/Adopt cat1.png" class="main-image" />
+              </div>
+              <div id="thumnail-container" class="thumbnailscontains">
+                <img src="images/adoption/Adopt cat1.png" class="thumbnail" />
+                <img src="images/adoption/Adopt cat11.png" class="thumbnail" />
+                <img src="images/adoption/Adopt cat11.png" class="thumbnail" />
+                <img src="images/adoption/Adopt cat11.png" class="thumbnail" />
+              </div>
+            </div>
+
+            <div class="rightpopup">
+              <h1>Pet name :</h1>
+              <h1>Age:</h1>
+              <h1>Gender:</h1>
+              <h1>Breed:</h1>
+              <h1>Discription:</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo asperiores voluptatibus consectetur veritatis
+                molestiae eos, vel repellat odit officia eveniet animi expedita
+                harum enim repellendus sequi incidunt omnis beatae quo?
+                <br />
+                <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                tempora nobis iste aliquam possimus pariatur iusto, vel aliquid,
+                voluptates veritatis at repudiandae. Quae, itaque ab! Rerum
+                expedita ipsum eveniet obcaecati?
+              </p>
+              <button class="adoptt">Adopt</button>
+            </div>
+          </div>
+          <button id="closePopup">X</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      myButton.addEventListener("click", function () {
+        myPopup.classList.add("show");
+      });
+      closePopup.addEventListener("click", function () {
+        myPopup.classList.remove("show");
+      });
+      window.addEventListener("click", function (event) {
+        if (event.target == myPopup) {
+          myPopup.classList.remove("show");
+        }
+      });
+
+      var thumbnails = document.querySelectorAll(".thumbnail");
+      var mainImage = document.querySelector(".main-image");
+
+      for (var i = 0; i < thumbnails.length; i++) {
+        thumbnails[i].addEventListener("click", function (n) {
+          mainImage.src = this.src;
+        });
+      }
+    </script>
+  </body>
+</html>

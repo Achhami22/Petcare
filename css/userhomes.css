@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .main-left {
+  height: auto;
+  flex-basis: 25%;
+  background-color: orange;
+}
+.main .main-left .main-logo {
+  background-color: white;
+  height: 150px;
+  display: grid;
+  place-items: center;
+}
+
+.main .main-left .main-logo img {
+  height: 75px;
+  width: 95px;
+}
+
+.main .main-left .main-links {
+  padding: 30px;
+  color: white;
+}
+
+.main .main-left .main-links p {
+  margin: 20px 0;
+}
+
+.main .main-left .main-links p i {
+  margin-right: 10px;
+}
+
+.main .main-left .main-links .about {
+  display: flex;
+  align-items: center;
+}
+
+.main .main-left .main-links p .fa-exclamation {
+  transform: rotate(180deg);
+  border: 2px solid white;
+  height: 18px;
+  width: 18px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+.main .main-right {
+  padding: 0 40px;
+  flex-basis: 75%;
+  background-color: bisque;
+}
+
+.main .main-right .main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0 60px 0;
+}
+
+.main .main-right .main-header .input {
+  display: flex;
+  align-items: center;
+}
+
+.main .main-right .main-header input {
+  padding: 7px;
+  background-color: white;
+  border: none;
+  width: 250px;
+  outline: none;
+}
+
+.main .main-right .main-header .fa-magnifying-glass {
+  background-color: skyblue;
+  height: 29px;
+  display: grid;
+  place-items: center;
+  width: 35px;
+  cursor: pointer;
+  color: white;
+}
+
+.main .main-right .user i {
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+.main .main-right .title {
+  font-size: 20px;
+  color: red;
+  margin-bottom: 3px;
+}
+
+.main .main-right .arrivalsa {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+.main .main-right .arrivalsa img {
+  height: 230px;
+  width: 100%;
+}
+
+.main .main-right .arrivalsa p {
+  padding: 5px 0;
+}
+
+.main .main-right .arrivalsa button {
+  background-color: skyblue;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+.main .main-right .second-title {
+  margin-top: 40px;
+}
+
+.main .main-right .paginationa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.main .main-right .paginationa button {
+  padding: 5px 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: grey;
+}
+
+.main .main-right .paginationa .active {
+  background-color: orange;
+  color: white;
+}
+
+.main .main-right .paginationa i {
+  cursor: pointer;
+  color: orange;
+}

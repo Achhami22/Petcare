@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/homestyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="mainc">
+      <div class="title">New Arrivals</div>
+      
+      <div class="products-container">
+        <div class="product" data-name="p-1">
+          <img src="images/adoption/Adopt cat3.png" alt="" />
+          <div class="pitem1">
+            <h3>Product Name</h3>
+            <p>3.5  <i class="fa-solid fa-star"></i></p>
+          </div>
+          <div class="pitem2">
+            <div class="pitem21">
+              <button class="acart">Add cart</button>
+              <button class="viewproduct">View</button>
+            </div>
+            <div class="price">Rs.2000</div>
+          </div>
+        </div>
+
+        <div class="product" data-name="p-2">
+          <img src="images/adoption/Adopt cat3.png" alt="" />
+          <div class="pitem1">
+            <h3>Product Name</h3>
+            <p>3.5  <i class="fa-solid fa-star"></i></p>
+          </div>
+          <div class="pitem2">
+            <div class="pitem21">
+              <button class="acart">Add cart</button>
+              <button class="viewproduct">View</button>
+            </div>
+            <div class="price">Rs.2000</div>
+          </div>
+        </div>
+
+        <div class="product" data-name="p-3">
+          <img src="images/adoption/Adopt cat3.png" alt="" />
+          <div class="pitem1">
+            <h3>Product Name</h3>
+            <p>3.5  <i class="fa-solid fa-star"></i></p>
+          </div>
+          <div class="pitem2">
+            <div class="pitem21">
+              <button class="acart">Add cart</button>
+              <button class="viewproduct">View</button>
+            </div>
+            <div class="price">Rs.2000</div>
+          </div>
+        </div>
+
+        <div class="product" data-name="p-4">
+          <img src="images/adoption/Adopt cat3.png" alt="" />
+          <div class="pitem1">
+            <h3>Product Name</h3>
+            <p>3.5  <i class="fa-solid fa-star"></i></p>
+          </div>
+          <div class="pitem2">
+            <div class="pitem21">
+              <button class="acart">Add cart</button>
+              <button class="viewproduct">View</button>
+            </div>
+            <div class="price">Rs.2000</div>
+          </div>
+        </div>
+
+        <div class="product" data-name="p-5">
+          <img src="images/adoption/Adopt cat3.png" alt="" />
+          <div class="pitem1">
+            <h3>Product Name</h3>
+            <p>3.5  <i class="fa-solid fa-star"></i></p>
+          </div>
+          <div class="pitem2">
+            <div class="pitem21">
+              <button class="acart">Add cart</button>
+              <button class="viewproduct">View</button>
+            </div>
+            <div class="price">Rs.2000</div>
+          </div>
+        </div>
+        <div class="product" data-name="p-6">
+          <img src="images/adoption/Adopt cat3.png" alt="" />
+          <div class="pitem1">
+            <h3>Product Name</h3>
+            <p>3.5  <i class="fa-solid fa-star"></i></p>
+          </div>
+          <div class="pitem2">
+            <div class="pitem21">
+              <button class="acart">Add cart</button>
+              <button class="viewproduct">View</button>
+            </div>
+            <div class="price">Rs.2000</div>
+          </div>
+        </div>
+        <div class="product" data-name="p-7">
+          <img src="images/adoption/Adopt cat3.png" alt="" />
+          <div class="pitem1">
+            <h3>Product Name</h3>
+            <p>3.5  <i class="fa-solid fa-star"></i></p>
+          </div>
+          <div class="pitem2">
+            <div class="pitem21">
+              <button class="acart">Add cart</button>
+              <button class="viewproduct">View</button>
+            </div>
+            <div class="price">Rs.2000</div>
+          </div>
+        </div>
+        <div class="product" data-name="p-8">
+          <img src="images/adoption/Adopt cat3.png" alt="" />
+          <div class="pitem1">
+            <h3>Product Name</h3>
+            <p>3.5  <i class="fa-solid fa-star"></i></p>
+          </div>
+          <div class="pitem2">
+            <div class="pitem21">
+              <button class="acart">Add cart</button>
+              <button class="viewproduct">View</button>
+            </div>
+            <div class="price">Rs.2000</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="products-preview">
+      <div class="preview active" data-target="p-1">
+        <button class="close" onclick="closePopup()">X</button>
+        <img src="images/adoption/adopt dog11.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <i class="fa-regular fa-star"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet dolor
+          labore quos, temporibus incidunt blanditiis quis error eius
+          voluptatibus quasi totam sint ad! Dolor sunt sint consequuntur
+          voluptas, expedita autem!
+        </p>
+        <div class="price"><b>Price </b> Rs. 2000</div>
+        <div class="quantity">
+          <h4>Quantity</h4>
+          <div class="qnum">
+            <!-- adding button and heading to show the digits -->
+            <!--increment() and decrement() functions on button click-->
+            <button onclick="decrement()">-</button>
+            <h2 class="counting">0</h2>
+            <button onclick="increment()">+</button>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="buy">Buy now</button>
+          <button class="acart">Add cart</button>
+        </div>
+      </div>
+
+      <!-- popup items -->
+      <div class="preview" data-target="p-2">
+        <button class="close" onclick="closePopup()">X</button>
+        <img src="images/adoption/adopt dog11.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <i class="fa-regular fa-star"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet dolor
+          labore quos, temporibus incidunt blanditiis quis error eius
+          voluptatibus quasi totam sint ad! Dolor sunt sint consequuntur
+          voluptas, expedita autem!
+        </p>
+        <div class="price"><b>Price </b> Rs. 2000</div>
+        <div class="quantity">
+          <h4>Quantity</h4>
+          <div class="qnum">
+            <!-- adding button and heading to show the digits -->
+            <!--increment() and decrement() functions on button click-->
+            <button onclick="decrement()">-</button>
+            <h2 class="counting">0</h2>
+            <button onclick="increment()">+</button>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="buy">Buy now</button>
+          <button class="acart">Add cart</button>
+        </div>
+      </div>
+
+      <!-- popup items -->
+      <div class="preview" data-target="p-3">
+        <button class="close" onclick="closePopup()">X</button>
+        <img src="images/adoption/adopt dog11.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <i class="fa-regular fa-star"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet dolor
+          labore quos, temporibus incidunt blanditiis quis error eius
+          voluptatibus quasi totam sint ad! Dolor sunt sint consequuntur
+          voluptas, expedita autem!
+        </p>
+        <div class="price"><b>Price </b> Rs. 2000</div>
+        <div class="quantity">
+          <h4>Quantity</h4>
+          <div class="qnum">
+            <!-- adding button and heading to show the digits -->
+            <!--increment() and decrement() functions on button click-->
+            <button onclick="decrement()">-</button>
+            <h2 class="counting">0</h2>
+            <button onclick="increment()">+</button>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="buy">Buy now</button>
+          <button class="acart">Add cart</button>
+        </div>
+      </div>
+
+      <!-- popup -->
+      <div class="preview" data-target="p-4">
+        <button class="close" onclick="closePopup()">X</button>
+        <img src="images/adoption/adopt dog11.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <i class="fa-regular fa-star"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet dolor
+          labore quos, temporibus incidunt blanditiis quis error eius
+          voluptatibus quasi totam sint ad! Dolor sunt sint consequuntur
+          voluptas, expedita autem!
+        </p>
+        <div class="price"><b>Price </b> Rs. 2000</div>
+        <div class="quantity">
+          <h4>Quantity</h4>
+          <div class="qnum">
+            <!-- adding button and heading to show the digits -->
+            <!--increment() and decrement() functions on button click-->
+            <button onclick="decrement()">-</button>
+            <h2 class="counting">0</h2>
+            <button onclick="increment()">+</button>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="buy">Buy now</button>
+          <button class="acart">Add cart</button>
+        </div>
+      </div>
+
+      <!-- popup items -->
+      <div class="preview" data-target="p-5">
+        <button class="close" onclick="closePopup()">X</button>
+        <img src="images/adoption/adopt dog11.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <i class="fa-regular fa-star"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet dolor
+          labore quos, temporibus incidunt blanditiis quis error eius
+          voluptatibus quasi totam sint ad! Dolor sunt sint consequuntur
+          voluptas, expedita autem!
+        </p>
+        <div class="price"><b>Price </b> Rs. 2000</div>
+        <div class="quantity">
+          <h4>Quantity</h4>
+          <div class="qnum">
+            <!-- adding button and heading to show the digits -->
+            <!--increment() and decrement() functions on button click-->
+            <button onclick="decrement()">-</button>
+            <h2 class="counting">0</h2>
+            <button onclick="increment()">+</button>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="buy">Buy now</button>
+          <button class="acart">Add cart</button>
+        </div>
+      </div>
+
+  <!-- popup -->
+      <div class="preview" data-target="p-6">
+        <button class="close" onclick="closePopup()">X</button>
+        <img src="images/adoption/adopt dog11.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <i class="fa-regular fa-star"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet dolor
+          labore quos, temporibus incidunt blanditiis quis error eius
+          voluptatibus quasi totam sint ad! Dolor sunt sint consequuntur
+          voluptas, expedita autem!
+        </p>
+        <div class="price"><b>Price </b> Rs. 2000</div>
+        <div class="quantity">
+          <h4>Quantity</h4>
+          <div class="qnum">
+            <!-- adding button and heading to show the digits -->
+            <!--increment() and decrement() functions on button click-->
+            <button onclick="decrement()">-</button>
+            <h2 class="counting">0</h2>
+            <button onclick="increment()">+</button>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="buy">Buy now</button>
+          <button class="acart">Add cart</button>
+        </div>
+      </div>
+
+      <!-- popup items -->
+      <div class="preview" data-target="p-7">
+        <button class="close" onclick="closePopup()">X</button>
+        <img src="images/adoption/adopt dog11.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <i class="fa-regular fa-star"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet dolor
+          labore quos, temporibus incidunt blanditiis quis error eius
+          voluptatibus quasi totam sint ad! Dolor sunt sint consequuntur
+          voluptas, expedita autem!
+        </p>
+        <div class="price"><b>Price </b> Rs. 2000</div>
+        <div class="quantity">
+          <h4>Quantity</h4>
+          <div class="qnum">
+            <!-- adding button and heading to show the digits -->
+            <!--increment() and decrement() functions on button click-->
+            <button onclick="decrement()">-</button>
+            <h2 class="counting">0</h2>
+            <button onclick="increment()">+</button>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="buy">Buy now</button>
+          <button class="acart">Add cart</button>
+        </div>
+      </div>
+
+      <!-- popup items -->
+      <div class="preview" data-target="p-8">
+        <button class="close" onclick="closePopup()">X</button>
+        <img src="images/adoption/adopt dog11.png" alt="" />
+        <h3>Product Name</h3>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <i class="fa-regular fa-star"></i>
+          <span>(250)</span>
+        </div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet dolor
+          labore quos, temporibus incidunt blanditiis quis error eius
+          voluptatibus quasi totam sint ad! Dolor sunt sint consequuntur
+          voluptas, expedita autem!
+        </p>
+        <div class="price"><b>Price </b> Rs. 2000</div>
+        <div class="quantity">
+          <h4>Quantity</h4>
+          <div class="qnum">
+            <!-- adding button and heading to show the digits -->
+            <!--increment() and decrement() functions on button click-->
+            <button onclick="decrement()">-</button>
+            <h2 class="counting">0</h2>
+            <button onclick="increment()">+</button>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="buy">Buy now</button>
+          <button class="acart">Add cart</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/pop.js"></script>
+  </body>
+</html>

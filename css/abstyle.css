@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+.about-container {
+  width: 100%;
+  position: relative;
+}
+.about-container .bgimg {
+  width: 100%;
+  opacity: 0.2;
+}
+.inabout {
+  width: 80%;
+  margin: 0px auto 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftabt {
+  width: 50%;
+}
+.rightabt {
+  width: 45%;
+}
+.leftabt img {
+  width: 100%;
+  opacity: 1;
+  border-radius: 20px;
+}
+
+/* Style the counter cards */
+.card-about {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #444;
+  color: white;
+}
+
+.fa {
+  font-size: 50px;
+}
+
+.ourteam {
+  width: 80%;
+  margin: 20px auto 0;
+}
+.ourteam h1 {
+  color: #f88820;
+  text-align: center;
+}
+.ourteam p {
+  margin-top: 10px;
+  text-align: center;
+}
+.ourteammembers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 24px;
+}
+.ourmember {
+  margin-top: 10px;
+  display: block;
+  padding: 50px;
+}
+.ourmember:hover {
+  background-color: #f6f4f4;
+}
+.ourmember img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.meminfo h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+.meminfo p {
+  margin-top: 10px;
+  text-align: center;
+}
+.micons {
+  width: 50%;
+  margin: 20px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.oloc {
+  width: 80%;
+  margin: 20px auto 0;
+}
+.oloc h1 {
+  font-weight: 600;
+  color: #f38820;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.adc p,.adc h2 {
+  margin: 5px 0;
+}
+.oloc img {
+  width: 100%;
+}
+.adc {
+  width: 80%;
+  margin: 40px auto 0;
+}
+.question {
+  margin-top: 5px;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.question:hover {
+  background-color: #ccc;
+}
+
+.question:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
